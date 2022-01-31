@@ -1,0 +1,95 @@
+html {
+    background-color: #28334AFF;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    font-size: 70px;
+    color: #FBDE44FF;
+}
+
+.game {
+    display: flex;
+    gap: 150px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 275px;
+    height: 600px;
+    border: 5px solid #FBDE44FF;
+    background-color: #F65058FF;
+}
+
+#color {
+    border: none;
+    width: 80px;
+    height: 80px;
+    background-color: #FBDE44FF;
+    margin: 40px 0px 10px 0px;
+    transition: transform 0.2s ease-in-out;
+}
+
+#color:hover {
+    transform: scale(1.05);
+}
+
+button {
+    border: 2px solid #FBDE44FF;
+    border-radius: 5px;
+    background-color: #F65058FF;
+    color:#FBDE44FF;
+    font-size: 18px;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.grid-size {
+    color:#FBDE44FF;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 200px;
+    height: 10px;
+    background: #28334AFF;
+    border: 1px solid #FBDE44FF; 
+    border-radius: 5px;
+}
+
+#slider::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 20px; 
+    height: 20px; 
+    background: #FBDE44FF; 
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    border: 5px solid #FBDE44FF;
+    background-color: white;
+}
