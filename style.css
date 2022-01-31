@@ -58,6 +58,14 @@ button {
 
 button:hover {
     transform: scale(1.05);
+    background-color: #FBDE44FF;
+    color: #F65058FF;
+}
+
+button.active {
+    border: 2px solid #FBDE44FF;
+    background-color: #FBDE44FF;
+    color:#F65058FF;
 }
 
 .grid-size {
